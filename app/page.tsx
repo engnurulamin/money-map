@@ -1,3 +1,4 @@
+import AddTransaction from "@/components/AddTransaction";
 import Guest from "@/components/Guest";
 import { currentUser } from "@clerk/nextjs/server";
 
@@ -12,6 +13,7 @@ const HomePage = async () => {
       <h1>
         Welcome, {user.firstName} {user.lastName}
       </h1>
+      <AddTransaction />
     </main>
   );
 };
