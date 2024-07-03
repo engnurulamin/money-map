@@ -1,9 +1,20 @@
 "use client";
+import addTransaction from "@/app/actions/addTransactions";
+
 const AddTransaction = () => {
+  const clientAction = async (formData: FormData) => {
+    const { data, error } = await addTransaction(formData);
+
+    try {
+      console.log("Transaction added");
+    } catch (error) {
+      console.log(error);
+    }
+  };
   return (
     <>
       <h3>Add transaction</h3>
-      <form>
+      <form action={clientAction}>
         <div className="form-control">
           <label htmlFor="text">Text</label>
           <input
