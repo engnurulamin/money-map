@@ -37,8 +37,9 @@ async function addTransaction(formData: FormData): Promise<TransactionResult> {
         userId,
       },
     });
-    return { data: transactionData };
+
     revalidatePath("/");
+    return { data: transactionData };
   } catch (error) {
     return { error: "Transaction is not added" };
   }
