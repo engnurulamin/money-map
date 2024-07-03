@@ -1,14 +1,15 @@
 "use client";
 import addTransaction from "@/app/actions/addTransactions";
+import { toast } from "react-toastify";
 
 const AddTransaction = () => {
   const clientAction = async (formData: FormData) => {
     const { data, error } = await addTransaction(formData);
 
-    try {
-      console.log("Transaction added");
-    } catch (error) {
-      console.log(error);
+    if (error) {
+      toast.error(error);
+    } else {
+      toast.success("Trsnsaction added");
     }
   };
   return (
