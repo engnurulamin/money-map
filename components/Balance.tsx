@@ -4,8 +4,12 @@ const Balance = async () => {
   const { balance } = await getUserBalance();
   return (
     <div>
-      <h4>Your Balance</h4>
-      <h1>${balance}</h1>
+      <h4>
+        Your Balance is{" "}
+        <strong style={{ fontSize: "20px", fontWeight: "bolder" }}>
+          ${balance}
+        </strong>
+      </h4>
     </div>
   );
 };
