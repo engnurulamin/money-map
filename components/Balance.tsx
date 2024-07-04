@@ -7,7 +7,7 @@ const Balance = async () => {
       <h4>
         Your Balance is{" "}
         <strong style={{ fontSize: "20px", fontWeight: "bolder" }}>
-          ${balance}
+          ${balance ?? 0}
         </strong>
       </h4>
     </div>
