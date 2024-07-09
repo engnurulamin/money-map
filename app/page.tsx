@@ -12,7 +12,7 @@ const HomePage = async () => {
 
   return (
     <main>
-      <h2>
+      <h2 className="center">
         Welcome, {user.firstName} {user.lastName}
       </h2>
       <Balance />

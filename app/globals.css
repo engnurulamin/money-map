@@ -113,6 +113,16 @@ h4 {
   color: #2ecc71;
 }
 
+.center {
+  text-align: center;
+}
+.center.balance {
+  text-align: center;
+  color: #2ecc71;
+  font-size: 24px;
+  margin-top: 4px;
+}
+
 .money.minus {
   color: #c0392b;
 }

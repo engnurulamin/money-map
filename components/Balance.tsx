@@ -5,11 +5,9 @@ const Balance = async () => {
   const { balance } = await getUserBalance();
   return (
     <div>
-      <h4>
-        Your Balance is{" "}
-        <strong style={{ fontSize: "20px", fontWeight: "bolder" }}>
-          ${addCommas(Number(balance?.toFixed(2) ?? 0))}
-        </strong>
+      <h4 className="center">Your Balance</h4>
+      <h4 className="center balance">
+        ${addCommas(Number(balance?.toFixed(2) ?? 0))}
       </h4>
     </div>
   );
