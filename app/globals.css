@@ -196,3 +196,31 @@ input[type="number"] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+
+/* footer style */
+
+.site-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container p,
+.footer-container a {
+  margin: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+}
