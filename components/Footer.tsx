@@ -9,7 +9,7 @@ const Footer = () => {
           &copy; 2024 Money Map. All rights reserved. Developed by Nurul Amin.
         </p>
         <div className="footer-right">
-          <p>Follow me on</p>
+          <p>Social Media</p>
           <a
             href="https://www.facebook.com/nurulamin15"
             className="social-icon"
