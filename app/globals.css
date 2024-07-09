@@ -207,12 +207,12 @@ input[type="number"] {
 
 .footer-container {
   max-width: 900px;
-  height: 15px;
   margin: 0 auto;
   padding: 0 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
 
 .footer-right {
@@ -240,4 +240,27 @@ input[type="number"] {
 
 .social-icon {
   font-size: 1rem;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-right {
+    margin-top: 10px;
+  }
+
+  .footer-right p {
+    margin: 0 10px 0 0;
+  }
+
+  .social-icon {
+    font-size: 1.2rem;
+    margin: 0 5px;
+  }
 }
