@@ -1,16 +1,37 @@
-const Footer = async () => {
+import React from "react";
+import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+
+const Footer = () => {
   return (
     <footer className="site-footer">
       <div className="footer-container">
         <p>
-          &copy; 2024 Money Map developed by Nurul Amin. All rights reserved.
+          &copy; 2024 Money Map. All rights reserved. Developed by Nurul Amin.
         </p>
-        <p>
-          Follow us on
-          <a href="https://www.facebook.com/yourcompany">Facebook</a>,
-          <a href="https://www.twitter.com/yourcompany">Twitter</a>,
-          <a href="https://www.instagram.com/yourcompany">Instagram</a>
-        </p>
+        <div className="footer-right">
+          <p>Follow me on</p>
+          <a
+            href="https://www.facebook.com/nurulamin15"
+            className="social-icon"
+            aria-label="Facebook"
+          >
+            <FaFacebook />
+          </a>
+          <a
+            href="https://www.twitter.com/nurul_amin15"
+            className="social-icon"
+            aria-label="Twitter"
+          >
+            <FaTwitter />
+          </a>
+          <a
+            href="https://www.instagram.com/nurulamin15"
+            className="social-icon"
+            aria-label="Instagram"
+          >
+            <FaInstagram />
+          </a>
+        </div>
       </div>
     </footer>
   );

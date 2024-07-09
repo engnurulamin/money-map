@@ -207,6 +207,7 @@ input[type="number"] {
 
 .footer-container {
   max-width: 900px;
+  height: 15px;
   margin: 0 auto;
   padding: 0 2rem;
   display: flex;
@@ -214,13 +215,29 @@ input[type="number"] {
   align-items: center;
 }
 
-.footer-container p,
-.footer-container a {
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.footer-container p {
   margin: 0;
+}
+
+.footer-right p {
+  margin-right: 10px;
+}
+
+.footer-container a {
   color: #fff;
   text-decoration: none;
+  margin: 0 10px;
 }
 
 .footer-container a:hover {
-  text-decoration: underline;
+  color: #9c88ff;
+}
+
+.social-icon {
+  font-size: 1rem;
 }
