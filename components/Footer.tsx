@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -30,6 +30,13 @@ const Footer = () => {
             aria-label="Instagram"
           >
             <FaInstagram />
+          </a>
+          <a
+            href="https://www.github.com/engnurulamin"
+            className="social-icon"
+            aria-label="GitHub"
+          >
+            <FaGithub />
           </a>
         </div>
       </div>
