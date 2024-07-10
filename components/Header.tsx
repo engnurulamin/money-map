@@ -14,7 +14,9 @@ const Header = async () => {
             <SignInButton />
           </SignedOut>
           <SignedIn>
-            <UserButton />
+            <span className="circle">
+              <UserButton />
+            </span>
           </SignedIn>
         </div>
       </div>

@@ -31,6 +31,19 @@ body {
   color: #fff;
 }
 
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  outline: none;
+}
 .navbar button,
 .guest button {
   border: 0;
