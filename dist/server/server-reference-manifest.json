@@ -1,54 +1,5 @@
 {
-  "node": {
-    "c3951639ec04a584d926140b41cf1a7928ecb81a": {
-      "workers": {
-        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cmy-project%5C%5Cmoney-map%5C%5Capp%5C%5Cactions%5C%5CgetUserBalance.ts%22%2C%5B%22default%22%5D%5D%2C%5B%22C%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cmy-project%5C%5Cmoney-map%5C%5Capp%5C%5Cactions%5C%5CgetIncomeExpense.ts%22%2C%5B%22default%22%5D%5D%2C%5B%22C%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cmy-project%5C%5Cmoney-map%5C%5Capp%5C%5Cactions%5C%5CgetTransaction.ts%22%2C%5B%22default%22%5D%5D%5D&__client_imported__=!"
-      },
-      "layer": {
-        "app/page": "rsc"
-      }
-    },
-    "83b7ae389044a0af4e2d031306724ce4081a0524": {
-      "workers": {
-        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cmy-project%5C%5Cmoney-map%5C%5Capp%5C%5Cactions%5C%5CgetUserBalance.ts%22%2C%5B%22default%22%5D%5D%2C%5B%22C%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cmy-project%5C%5Cmoney-map%5C%5Capp%5C%5Cactions%5C%5CgetIncomeExpense.ts%22%2C%5B%22default%22%5D%5D%2C%5B%22C%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cmy-project%5C%5Cmoney-map%5C%5Capp%5C%5Cactions%5C%5CgetTransaction.ts%22%2C%5B%22default%22%5D%5D%5D&__client_imported__=!"
-      },
-      "layer": {
-        "app/page": "rsc"
-      }
-    },
-    "68a353fc408953f6d936f088a3d7b1ff48deba66": {
-      "workers": {
-        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cmy-project%5C%5Cmoney-map%5C%5Capp%5C%5Cactions%5C%5CgetUserBalance.ts%22%2C%5B%22default%22%5D%5D%2C%5B%22C%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cmy-project%5C%5Cmoney-map%5C%5Capp%5C%5Cactions%5C%5CgetIncomeExpense.ts%22%2C%5B%22default%22%5D%5D%2C%5B%22C%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cmy-project%5C%5Cmoney-map%5C%5Capp%5C%5Cactions%5C%5CgetTransaction.ts%22%2C%5B%22default%22%5D%5D%5D&__client_imported__=!"
-      },
-      "layer": {
-        "app/page": "rsc"
-      }
-    },
-    "a1f4149a7cbcf5ebd8a792f489c4037843592416": {
-      "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cmy-project%5C%5Cmoney-map%5C%5Capp%5C%5Cactions%5C%5CaddTransactions.ts%22%2C%5B%22default%22%5D%5D%2C%5B%22C%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cmy-project%5C%5Cmoney-map%5C%5Capp%5C%5Cactions%5C%5CdeleteTransaction.ts%22%2C%5B%22default%22%5D%5D%2C%5B%22C%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cmy-project%5C%5Cmoney-map%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions%5C%5CinvalidateCache.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/page": "action-browser"
-      }
-    },
-    "d84b8cbd0fe3d8421898a2f31e33a60464d34c61": {
-      "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cmy-project%5C%5Cmoney-map%5C%5Capp%5C%5Cactions%5C%5CaddTransactions.ts%22%2C%5B%22default%22%5D%5D%2C%5B%22C%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cmy-project%5C%5Cmoney-map%5C%5Capp%5C%5Cactions%5C%5CdeleteTransaction.ts%22%2C%5B%22default%22%5D%5D%2C%5B%22C%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cmy-project%5C%5Cmoney-map%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions%5C%5CinvalidateCache.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/page": "action-browser"
-      }
-    },
-    "5fa39f64caefceb6f2605f70edb23b0c81da71e5": {
-      "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cmy-project%5C%5Cmoney-map%5C%5Capp%5C%5Cactions%5C%5CaddTransactions.ts%22%2C%5B%22default%22%5D%5D%2C%5B%22C%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cmy-project%5C%5Cmoney-map%5C%5Capp%5C%5Cactions%5C%5CdeleteTransaction.ts%22%2C%5B%22default%22%5D%5D%2C%5B%22C%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cmy-project%5C%5Cmoney-map%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions%5C%5CinvalidateCache.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/page": "action-browser"
-      }
-    }
-  },
+  "node": {},
   "edge": {},
-  "encryptionKey": "FjwaHwP2VnmPYTl9SA/NLS3SLdHGiI8V4aCeaDR5iJ4="
+  "encryptionKey": "aDLcK3dMOJefT2QksqxsDu1Kld50ItUen+FHaTgJQP8="
 }
